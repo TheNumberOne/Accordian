@@ -4,6 +4,6 @@ import java.lang.annotation.*;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-@Target(ElementType.TYPE)
-public @interface DiscordController {
+@Target({ElementType.TYPE, ElementType.ANNOTATION_TYPE})
+public @interface DiscordBot {
 }

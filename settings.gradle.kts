@@ -1,2 +1,2 @@
 rootProject.name = "Accordion"
-include("annotation", "test")
+include("annotation", "test", "processor", "deps")
