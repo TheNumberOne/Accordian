@@ -5,5 +5,5 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Target({ElementType.TYPE})
-public @interface DiscordBot {
+public @interface CommandClass {
 }

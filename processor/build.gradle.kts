@@ -5,9 +5,11 @@ plugins {
 }
 
 dependencies {
-    api(project(":annotation"))
+    implementation(project(":deps"))
 
     implementation(kotlin("stdlib-jdk8"))
+    implementation(platform("io.projectreactor:reactor-bom:Bismuth-RELEASE"))
+    implementation("io.projectreactor:reactor-core")
 
     compileOnly("com.google.auto.service:auto-service-annotations:1.0-rc7")
     kapt("com.google.auto.service:auto-service:1.0-rc7")

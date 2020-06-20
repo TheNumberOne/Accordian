@@ -6,7 +6,7 @@ plugins {
 
 dependencies {
     implementation("com.discord4j:discord4j-core:3.1.0.RC2")
-    testImplementation(project(":annotation"))
+    testImplementation(project(":deps"))
     kaptTest(project(":processor"))
     testImplementation(kotlin("stdlib-jdk8"))
     testImplementation("org.junit.jupiter:junit-jupiter:5.6.2")
